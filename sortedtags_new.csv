@@ -1,0 +1,914 @@
+key
+highway speed_camera
+building 
+highway residential
+leisure swimming_pool
+4wd_only 
+monitoring:radiation 
+organic 
+amenity marketplace
+building greenhouse
+bunker_type pillbox
+denomination mormon
+highway ford
+highway motorway_junction
+highway pedestrian
+historic castle
+landcover grass
+landuse basin
+landuse greenfield
+leisure turkish_bath
+natural rock
+natural stone
+natural water
+office advertising_agency
+office charity
+office company
+office employment_agency
+office estate_agent
+office insurance
+office it
+power generator
+shop bakery
+shop beauty
+shop bed
+shop books
+shop butcher
+shop car_repair
+shop clothes
+shop copyshop
+shop dairy
+shop deli
+shop department_store
+shop dry_cleaning
+shop fabric
+shop furniture
+shop gift
+shop hearing_aids
+shop herbalist
+shop kiosk
+shop military_surplus
+shop model
+shop newsagent
+shop optician
+shop pet
+shop photo
+shop shoes
+shop sports
+shop stationery
+shop tattoo
+shop tiles
+shop travel_agency
+shop tyres
+shop video
+shop wigs
+sport basketball
+sport billiards
+tourism artwork
+amenity community_centre
+amenity nightclub
+amenity place_of_worship
+amenity veterinary
+place hamlet
+place town
+place village
+amenity bar
+amenity bbq
+amenity bicycle_parking
+amenity bicycle_rental
+amenity biergarten
+amenity bus_station
+amenity cafe
+amenity car_rental
+amenity car_wash
+amenity drinking_water
+amenity fast_food
+amenity food_court
+amenity fuel
+amenity ice_cream
+amenity kindergarten
+amenity library
+amenity motorcycle_parking
+amenity pub
+amenity public_bookcase
+amenity restaurant
+amenity school
+amenity taxi
+amenity university
+highway motorway
+highway service
+highway track
+craft tinsmith
+amenity bench
+noexit 
+amenity fountain
+barrier cable_barrier
+highway footway
+highway path
+highway secondary
+highway unclassified
+natural peak
+shop garden_centre
+waterway drain
+leisure dance
+amenity recycling
+barrier fence
+barrier kerb
+social_facility nursing_home
+sport padel
+waterway dock
+waterway weir
+amenity bank
+barrier bollard
+highway street_lamp
+abandoned:place 
+bicycle_road 
+bulk_purchase 
+departures_board 
+diaper 
+disused:place 
+drinking_water 
+driving_side 
+dryer 
+fence_type 
+fishing 
+fuel:LH2 
+geothermal 
+golf_cart 
+informal 
+kids_area 
+lgbtq 
+lock 
+motorcycle:parts 
+nudism 
+ramp 
+ref:bic 
+sailing:tours 
+shoulder 
+sidewalk 
+smokefree 
+speech_input 
+stove 
+takeaway 
+terrace 
+washing_machine 
+waste 
+wetland 
+amenity townhall
+highway bus_stop
+highway services
+highway stop
+landuse retail
+leisure garden
+natural spring
+shop convenience
+tourism attraction
+landuse meadow
+natural scrub
+height 
+office government
+railway subway_entrance
+shop florist
+shop musical_instrument
+sport climbing
+sport equestrian
+addr 
+building:levels 
+cuisine 
+dispensing 
+drive_through 
+embankment 
+lanes 
+maxspeed 
+oneway 
+opening_hours 
+operator 
+park_ride 
+ref:vatin 
+religion 
+waterway 
+aerialway cable_car
+aeroway apron
+aeroway spaceport
+aeroway taxiway
+aeroway terminal
+aeroway windsock
+amenity animal_boarding
+amenity arts_centre
+amenity atm
+amenity baby_hatch
+amenity baking_oven
+amenity bicycle_repair_station
+amenity boat_rental
+amenity brothel
+amenity bureau_de_change
+amenity casino
+amenity charging_station
+amenity cinema
+amenity clinic
+amenity clock
+amenity college
+amenity courthouse
+amenity coworking_space
+amenity crematorium
+amenity crypt
+amenity dentist
+amenity dive_centre
+amenity doctors
+amenity dojo
+amenity driving_school
+amenity embassy
+amenity ferry_terminal
+amenity fire_station
+amenity gambling
+amenity game_feeding
+amenity grave_yard
+amenity grit_bin
+amenity hospital
+amenity hunting_stand
+amenity internet_cafe
+amenity kitchen
+amenity kneipp_water_cure
+amenity lavoir
+amenity nursing_home
+amenity parking
+amenity parking_entrance
+amenity parking_space
+amenity pharmacy
+amenity photo_booth
+amenity planetarium
+amenity police
+amenity post_box
+amenity post_office
+amenity prison
+amenity public_bath
+amenity ranger_station
+amenity rescue_station
+amenity research_institute
+amenity sanitary_dump_station
+amenity shelter
+amenity shower
+amenity social_facility
+amenity stripclub
+amenity surf_school
+amenity swingerclub
+amenity table
+amenity telephone
+amenity theatre
+amenity ticket_validator
+amenity toilets
+amenity vehicle_inspection
+amenity vending_machine
+amenity waste_basket
+amenity waste_disposal
+amenity watering_place
+barrier guard_rail
+barrier kissing_gate
+barrier retaining_wall
+barrier toll_booth
+building roof
+craft agricultural_engines
+craft basket_maker
+craft beekeeper
+craft blacksmith
+craft boatbuilder
+craft bookbinder
+craft brewery
+craft builder
+craft carpet_layer
+craft caterer
+craft chimney_sweeper
+craft clockmaker
+craft gardener
+craft jeweller
+craft scaffolder
+craft upholsterer
+craft winery
+geological palaeontological_site
+government cadaster
+healthcare blood_donation
+highway primary
+highway rest_area
+highway steps
+highway tertiary
+highway turning_circle
+historic fort
+historic locomotive
+historic wayside_shrine
+junction roundabout
+landuse farmyard
+landuse forest
+landuse landfill
+landuse military
+landuse reservoir
+landuse vineyard
+leisure fishing
+leisure golf_course
+leisure nature_reserve
+leisure pitch
+leisure playground
+leisure slipway
+leisure sports_centre
+leisure water_park
+natural coastline
+natural wood
+place farm
+place islet
+place isolated_dwelling
+place locality
+place square
+place state
+power line
+railway level_crossing
+railway rail
+service alley
+shop alcohol
+shop bag
+shop charity
+shop farm
+shop fishing
+shop greengrocer
+shop hunting
+shop ice_cream
+shop jetski
+shop jewelry
+shop lottery
+shop mobile_phone
+shop pasta
+shop pastry
+shop perfumery
+shop seafood
+shop supermarket
+shop tobacco
+shop watches
+sport 10pin
+tourism alpine_hut
+tourism camp_site
+tourism caravan_site
+tourism chalet
+tourism guest_house
+tourism information
+tourism picnic_site
+tourism theme_park
+tourism zoo
+traffic_calming island
+traffic_calming table
+tunnel culvert
+vending bicycle_tube
+waterway ditch
+waterway stream
+advertising column
+advertising poster_box
+advertising sculpture
+advertising sign
+aerialway pylon
+aerialway station
+aerialway zip_line
+aeroway aerodrome
+aeroway airstrip
+aeroway helipad
+aeroway runway
+amenity animal_shelter
+amenity car_sharing
+amenity cloakroom
+amenity concert_hall
+amenity conference_centre
+amenity exhibition_centre
+amenity fish_spa
+amenity karaoke_box
+amenity life_ring
+amenity payment_centre
+amenity reception_desk
+amenity sailing_school
+amenity studio
+amenity toy_library
+amenity tuition
+barrier block
+barrier cattle_grid
+barrier cycle_barrier
+barrier ditch
+barrier entrance
+barrier gate
+barrier height_restrictor
+barrier lift_gate
+barrier sally_port
+barrier stile
+barrier swing_gate
+barrier turnstile
+barrier wall
+barrier wicket_gate
+boundary regional_park
+bridge:structure simple-suspension
+building boathouse
+building dormitory
+building entrance
+building ger
+club amateur_radio
+club automobile
+club fan
+club motorcycle
+club scout
+club sport
+craft cabinet_maker
+craft electronics_repair
+craft glaziery
+craft hvac
+craft information_electronics
+craft painter
+craft plumber
+craft pottery
+craft roofer
+craft saddler
+craft shoemaker
+craft stand_builder
+craft stonemason
+craft toolmaker
+craft window_construction
+dock drydock
+dock floating
+emergency dry_riser_inlet
+emergency fire_hydrant
+emergency phone
+footway sidewalk
+garden:type botanical
+healthcare dentist
+highway crossing
+highway emergency_access_point
+highway escape
+highway give_way
+highway living_street
+highway passing_place
+highway platform
+highway raceway
+highway toll_gantry
+highway traffic_signals
+highway trunk
+historic archaeological_site
+historic battlefield
+historic boundary_stone
+historic city_gate
+historic memorial
+historic monastery
+historic monument
+historic optical_telegraph
+historic railway_car
+historic ruins
+historic ship
+historic wayside_cross
+historic wreck
+industrial shipyard
+internet_access wlan
+junction circular
+landcover trees
+landuse cemetery
+landuse construction
+landuse grass
+landuse hop_garden
+landuse industrial
+landuse port
+landuse quarry
+landuse recreation_ground
+landuse religious
+landuse residential
+leisure beach_resort
+leisure bleachers
+leisure common
+leisure dog_park
+leisure firepit
+leisure fitness_station
+leisure hackerspace
+leisure ice_rink
+leisure marina
+leisure miniature_golf
+leisure park
+leisure picnic_table
+leisure sauna
+leisure stadium
+leisure table_tennis_table
+leisure tanning_salon
+leisure track
+locality subtownland
+locality townland
+military ammunition
+military barracks
+military bunker
+military naval_base
+military office
+military range
+name KFC
+natural bare_rock
+natural beach
+natural cave_entrance
+natural cliff
+natural esker
+natural fell
+natural geothermal
+natural geothermal_area
+natural geothermal_field
+natural heath
+natural meadow
+natural moor
+natural mountain_range
+natural plant
+natural ridge
+natural scree
+natural shrub
+natural tree
+natural wetland
+office association
+office lawyer
+office moving_company
+office private_investigator
+office tax_advisor
+office visa
+path desire
+place borough
+place city
+place suburb
+power cable_distribution_cabinet
+power catenary_mast
+power plant
+power pole
+public_transport platform
+public_transport station
+public_transport stop_position
+railway crossing
+railway halt
+railway roundhouse
+railway station
+railway stop
+railway subway
+railway tram_stop
+railway traverser
+railway turntable
+railway water_crane
+religion buddhist
+residential rural
+residential university
+residential urban
+route detour
+seamark landmark
+service drive-through
+service parking_aisle
+shop antiques
+shop art
+shop atv
+shop beverages
+shop bicycle
+shop board
+shop boutique
+shop car
+shop caravan
+shop chemist
+shop computer
+shop confectionery
+shop country_store
+shop electronics
+shop erotic
+shop funeral_directors
+shop general
+shop glaziery
+shop groundskeeping
+shop hairdresser
+shop hardware
+shop hifi
+shop hookah
+shop household_linen
+shop houseware
+shop insurance
+shop kitchen
+shop laundry
+shop mall
+shop massage
+shop mobile_home
+shop motorcycle
+shop music
+shop outdoor
+shop paint
+shop pet_grooming
+shop pottery
+shop rental
+shop robot
+shop second_hand
+shop ski
+shop snowmobile
+shop storage_rental
+shop trailer
+shop trophy
+shop variety_store
+shop vehicles
+sport archery
+sport athletics
+sport australian_football
+sport badminton
+sport balle_pelote
+sport base
+sport baseball
+sport beachvolleyball
+sport bmx
+sport bobsleigh
+sport boules
+sport bowls
+sport boxing
+sport bullfighting
+sport canadian_football
+sport canoe
+sport cliff_diving
+sport climbing_adventure
+sport croquet
+sport curling
+sport cycling
+sport dancing
+sport darts
+sport disc_golf
+sport fencing
+sport fitness
+sport free_flying
+sport futsal
+sport golf
+sport handball
+sport horse_racing
+sport ice_hockey
+sport ice_skating
+sport judo
+sport karate
+sport karting
+sport korfball
+sport laser_tag
+sport model_aerodrome
+sport multi
+sport netball
+sport paddle_tennis
+sport parachuting
+sport pole_dance
+sport racquet
+sport roller_skating
+sport rowing
+sport running
+sport sailing
+sport scuba_diving
+sport shooting
+sport shot-put
+sport skateboard
+sport skiing
+sport soccer
+sport swimming
+sport table_soccer
+sport table_tennis
+sport tennis
+sport volleyball
+sport windsurfing
+tourism aquarium
+tourism camp_pitch
+tourism hostel
+tourism hotel
+tourism motel
+tourism museum
+tourism resort
+tourism viewpoint
+tourism wilderness_hut
+vending pet_food
+wall noise_barrier
+water lock
+waterway boatyard
+waterway dam
+waterway lock_gate
+playground 
+emergency fire_water_pond
+emergency suction_point
+emergency water_tank
+natural grassland
+waterway riverbank
+canoe 
+craft 
+designation 
+fair_trade 
+leaf_type 
+lock_name 
+lock_ref 
+material 
+parking:lane 
+post_box:type 
+start_date 
+surface 
+tactile_paving 
+year_of_construction 
+aeroway heliport
+amenity animal_breeding
+amenity archive
+amenity dancing_school
+amenity emergency_phone
+amenity weighbridge
+barrier hedge_bank
+craft car_repair
+craft carpenter
+craft distillery
+craft dressmaker
+craft handicraft
+craft organ_builder
+craft parquet_layer
+craft photographer
+craft tiler
+cuisine coffee_shop
+emergency access_point
+emergency defibrillator
+emergency lifeguard_tower
+government register_office
+highway corridor
+highway elevator
+historic aircraft
+information guidepost
+landuse allotments
+leisure bandstand
+leisure fitness_centre
+leisure horse_riding
+natural glacier
+natural shingle
+natural tree_row
+office parish
+power minor_line
+power station
+power sub_station
+power tower
+railway buffer_stop
+route fitness_trail
+shop doityourself
+shop frame
+shop lamps
+sport chess
+water lake
+waterway river
+after_school 
+brewery 
+consulting 
+conveying 
+evacuation_route 
+fee 
+fuel:diesel_G2 
+kerb 
+lanes:psv 
+mountain_pass 
+pump 
+railway:preserved 
+seasonal 
+traffic_signals 
+abandoned:amenity prison_camp
+aerodrome:type regional
+amenity events_venue
+amenity language_school
+amenity letter_box
+amenity lounger
+amenity love_hotel
+amenity mobile_library
+amenity mortuary
+amenity music_school
+amenity post_depot
+amenity prison_camp
+animal school
+attraction water_slide
+barrier border_control
+barrier spikes
+boundary national_park
+building apartments
+building barn
+building brewery
+building carport
+building civic
+building conservatory
+building construction
+building container
+building detached
+building grandstand
+building house
+building kiosk
+building public
+building sports_hall
+building sty
+building terrace
+building warehouse
+craft bakery
+craft confectionery
+craft dental_technician
+craft electrician
+craft luthier
+craft oil_mill
+craft printer
+craft watchmaker
+cycleway lane
+cycleway share_busway
+cycleway track
+emergency dry_riser
+emergency ses_station
+generator:source wind
+generator:type solar_photovoltaic_panel
+generator:type solar_thermal_collector
+government customs
+highway bridleway
+highway bus_guideway
+highway cycleway
+historic aqueduct
+historic pillory
+industrial depot
+industrial factory
+industrial scrap_yard
+landuse apiary
+landuse depot
+landuse farmland
+landuse plant_nursery
+leisure bowling_alley
+memorial ghost_bike
+military training_area
+natural bay
+natural geyser
+natural mud
+natural saddle
+natural sinkhole
+office consulting
+office engineer
+office foundation
+office logistics
+office ngo
+office notary
+office therapist
+office water_utility
+place island
+place neighbourhood
+place plot
+power heliostat
+pump no
+pump powered
+railway yard
+service driveway
+shop baby_goods
+shop bookmaker
+shop car_parts
+shop collector
+shop craft
+shop games
+shop gas
+shop locksmith
+shop nuts
+shop party
+shop pawnbroker
+shop sewing
+shop ticket
+shop toys
+shop trade
+shop water
+shop window_blind
+social_facility food_bank
+sport pelota
+sport water_polo
+tourism gallery
+tourism wine_cellar
+tower:type bell_tower
+tower:type minaret
+tower:type watchtower
+water lagoon
+water reservoir
+wetland tidalflat
+landuse commercial
+delivery 
+place county
+power transformer
+religion shinto
+shop nutrition_supplements
+surface asphalt
+traffic_sign city_limit
+fenced 
+landuse 
+leisure 
+barrier hedge
+barrier sump_buster
+landuse garages
+social_facility 
+tunnel 
+water 
+amenity public_building
+boundary protected_area
+landuse railway
+office research
+power substation
+amenity audiologist
+amenity childcare
+amenity compressed_air
+amenity monastery
+amenity social_centre
+amenity car_pooling
+amenity coast_guard
+amenity customs
+amenity financial_advice
+amenity fridge
+amenity hookah_lounge
+amenity hospice
+amenity loading_dock
+amenity money_transfer
+amenity polling_station
+amenity tourist_bus_parking
+amenity vacuum_cleaner
+amenity boat_sharing
+amenity harbourmaster
+amenity lifeboat_station
+amenity retirement_home
+amenity stables
+amenity marae

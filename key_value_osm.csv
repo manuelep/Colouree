@@ -1,0 +1,2560 @@
+key
+wheelchair yes
+wheelchair limited
+waterway ditch
+water river
+water reservoir
+water intermittent
+voltage 69000
+voltage 63000
+voltage 600
+voltage 400000
+voltage 345000
+voltage 25000
+voltage 230000
+voltage 220000
+voltage 22000
+voltage 20000
+voltage 15000
+voltage 138000
+voltage 35000
+vehicle no
+usage main
+usage branch
+type public_transport
+tunnel culvert
+tunnel building_passage
+trees olive_trees
+trees coffea_plants
+transformer distribution
+trailblazed yes
+trail_visibility horrible
+trail_visibility good
+trail_visibility excellent
+trail_visibility bad
+traffic_sign NL:G11
+tracktype grade3
+tracks 2
+traces 1
+tourism motel
+voltage 66000
+tourism information
+tourism hotel
+tourism guest_house
+tourism chalet
+tourism artwork
+toll yes
+toilets yes
+tidal yes
+tents yes
+taxon Acer platanoides
+takeaway yes
+tactile_paving yes
+surveillance public
+surface wood
+surface sand
+surface paved
+surface mud
+surface metal
+surface gravel
+surface grass
+surface fine_gravel
+surface dirt
+surface concrete:plates
+surface concrete
+surface asphalt
+substation minor_distribution
+substance oil
+substance gas
+structure_gauge GC
+structure tubular
+street_cabinet power
+stream perennial
+stream intermittent
+stream ephemeral
+stop minor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+waterway river
+stars 3
+sport tennis
+sport soccer
+sport skateboard
+sport running
+sport multi
+sport golf
+sport bowls
+species Tilia platyphyllos
+species Tilia cordata
+species Platanus x hispanica
+species Fraxinus excelsior
+species Carpinus betulus
+species Aesculus hippocastanum
+species Acer saccharum
+sport baseball
+species Acer rubrum
+species Acer pseudoplatanus
+species Acer campestre
+tracktype grade5
+trolleybus yes
+unisex yes
+trolley_wire yes
+wheelchair no
+voltage 1500
+voltage 115000
+tracktype grade4
+triangulation_point yes
+type route
+takeaway 
+craft 
+abandoned:highway 
+support 
+KSJ2:AdminArea 
+entrance yes
+indoor yes
+lbcs:function:code 
+icao 
+denotation avenue
+source_date 
+min_height 
+strazakosm:send_date 
+trail_visibility intermediate
+place plot
+aeroway parking_position
+area:highway 
+amenity bus_station
+fax 
+old_ref_legislative 
+location 
+horse 
+gauge 
+massgis:IT_VALC 
+landuse industrial
+salt yes
+emergency_telephone_code 
+smoking 
+site_type 
+site_name 
+amenity atm
+site 
+siruta:county_code 
+note:cadastre:id 
+building houseboat
+sidewalk 
+shelter_type 
+shelter 
+shape:plan 
+genus:it 
+converted_by 
+service alley
+seamark:rock:water_level 
+station 
+payment:cash 
+seamark:light:range 
+HFCS Urban Minor Arterial
+seamark:notice:category 
+seamark:light:colour 
+natural beach
+seamark:light:character 
+seamark:distance_mark:category 
+moped yes
+seamark:buoy_lateral:shape 
+memorial:text 
+door yes
+seamark:buoy_lateral:colour 
+seamark:buoy_lateral:category 
+landuse greenfield
+seamark:beacon_lateral:system 
+mapper mspray10
+office insurance
+history Retrieved from v1
+seamark:beacon_isolated_danger:shape 
+seamark 
+produce timber
+circumference 0.45
+school:ML:cap 
+salt 
+sac_scale 
+addr2:street 
+tunnel 
+leisure recreation_ground
+ruins 
+species:de 
+route 
+route_master 
+rooms 
+roof:shape 
+roof:orientation:compass 
+man_made yes
+scvwd:ROUTEID 
+roof:levels 
+barrier 
+roof:colour 
+motorcar yes
+power substation
+stream 
+residential 
+handrail yes
+playground 
+age young
+capacity 
+map_size 
+survey_point 
+man_made 
+sangis:TYPE 
+natural sand
+official_status ru:???????
+massgis:FEE_OWNER 
+gnis:fcode 
+surface earth
+LandPro08:LCLU 
+map_type topo
+waterway dam
+line bay
+motor_vehicle no
+species:nl 
+taxon Aesculus hippocastanum
+leaf_cycle deciduous
+siruta:name_sup 
+operational_status 
+redwood_city_ca:bld_gid 
+noref yes
+rednap:nodo 
+okato:user 
+access designated
+dcgis:square 
+gnis:county_id 
+rcn_ref 
+ramp 
+railway:switch 
+railway:signal:shunting:states 
+reg_ref 
+railway:signal:shunting:form 
+junction roundabout
+voltage 132000
+railway:signal:position 
+building yes
+railway:signal:main:substitute_signal 
+railway:signal:main:states 
+golf_cart designated
+subway 
+species Platanus x acerifolia
+restaurant 
+description:en 
+railway:signal:distant:height 
+railway:signal:distant 
+railway:ref 
+tracks 1
+railway:rail 
+railway:milestone:emergency_brake_override 
+railway:milestone:catenary_mast 
+railway:lzb 
+railway:bidirectional 
+railway:ballastless 
+destination:symbol 
+name:right 
+axle_load 22.5
+highway road
+plant_community:it 
+protect_class 
+priority_road 
+power 
+payment:maestro 
+rcn 
+population:census:1992 
+pole 
+school:ML:academie 
+placement 
+amenity pub
+species Celtis australis
+piste:type 
+building ruins
+golf water_hazard
+pillar:type 
+place isolated_dwelling
+pcode 
+payment:telephone_cards 
+payment:mastercard 
+rednap:numero 
+network 
+payment:electronic_purses 
+payment:debit_cards 
+office company
+payment:american_express 
+passenger_information_display 
+passenger 
+parking:lane:right 
+colour yellow
+surface unpaved
+shelter no
+parking:lane:left 
+surface ground
+surface sett
+parking:lane:both 
+ntd_id 
+species 
+par 
+paloalto_ca:id 
+ownership 
+network NTF-5
+osmc:name 
+sidewalk both
+osak:identifier 
+organic 
+leisure 
+gst:feat_id 
+uic_name 
+REF 
+usage industrial
+amenity clock
+surveillance:type 
+damage:organization 
+trailblazed 
+par 4
+destination:street 
+substance 
+railway:turnout_side 
+train yes
+railway:track_class 
+landuse 
+aeroway navigationaid
+railway tram
+seamark:beacon_lateral:colour 
+genus Tilia
+highway bridleway
+landuse recreation_ground
+official_status 
+official_name 
+footway 
+rednap:posicion 
+office 
+parking 
+object:street 
+nvdb:date 
+nsdi_code 
+raba:id 
+is_in:cercle 
+male yes
+note:de 
+seamark:distance_mark:units 
+power transformer
+note:cadastre:building_use 
+allotments 
+clc:id 
+water lake
+railway:kvb 
+est_width 3.0m?5.5m
+tmc 
+lamp_type electric
+unmil:id 
+building:material 
+shop department_store
+lbcs:activity:code 
+network:guid 
+natural 
+nat_ref 
+landuse retail
+highway crossing
+admin_level 2
+salting:ref 
+bridge:name 
+street_cabinet 
+advertising 
+office lawyer
+park_ride 
+placement right_of:2
+name_1 
+name:tt 
+building:overhang 
+name:tr 
+railway:signal:direction 
+house detached
+statscan:rbuid 
+natural coastline
+name:pt 
+name:prefix:ru 
+attraction animal
+power tower
+maintenance salting
+piste:difficulty 
+name:prefix 
+sport volleyball
+living_street 
+highway cycleway
+natural grassland
+shoulder 
+name:my 
+name:mk 
+light:count 
+shop massage
+gns_uni 
+shop butcher
+name:lt 
+name:ko 
+building:units 
+roof:height 
+name:kn 
+highway mini_roundabout
+name:ka 
+power switch
+switch 
+name:ja-Latn 
+url 
+shop photo
+name:it 
+ref 
+name:hy 
+railway:signal:main:form 
+name:fr 
+name:eu 
+embankment 
+place square
+tram yes
+name:etymology:wikidata 
+fire_hydrant:diameter 
+site_type tumulus
+rednap:latitud 
+name:el 
+massgis:ASSESS_LOT 
+maritime 
+contact:instagram 
+railway:position:exact 
+railway:preferred_direction 
+name:ar 
+man_made groyne
+ski no
+sangis:OBJECTID 
+practicability 
+seamark:buoy_lateral:system 
+mtb:scale:imba 
+mtb:scale 
+mtb 
+rating 
+motorroad 
+rcn yes
+motorcycle 
+HU:ed_direction 
+mml:class 
+colour 
+place locality
+minspeed 
+military 
+metcouncil:nroutes 
+metcouncil:corner_loc 
+bicycle yes
+metcouncil:city_id 
+route bus
+seamark:topmark:shape 
+railway:signal:minor:height 
+memorial:type 
+median 
+genus Populus
+osmc:symbol 
+maxspeed:hgv 
+maxstay 
+maxspeed:forward 
+maxspeed:advisory 
+mooring 
+distance 
+landuse conservation
+material 
+traffic_sign:backward 
+massgis:way_id 
+man_made pipeline
+memorial:addr 
+massgis:PRIM_PURP 
+cables 
+power minor_line
+massgis:POLY_ID 
+massgis:POLY_CODE 
+massgis:PALIS_ID 
+protection_title 
+is_in:municipality 
+passenger_lines 
+massgis:OS_ID 
+plant:output:electricity 
+species:fr 
+amenity courthouse
+boundary administrative
+noexit 
+massgis:OS_DEED_BO 
+toll:hgv 
+massgis:OBJECTID 
+massgis:LEV_PROT 
+maxspeed:trailer 
+massgis:SITE_NAME 
+colour blue
+massgis:FEESYM 
+massgis:DCAM_ID 
+gauge 1520
+import freemapkapor
+massgis:ASSESS_MAP 
+metcouncil:site_on 
+mapper 
+map 
+design barrel
+manhole 
+male 
+building:type 
+genus Prunus
+lojic:bgnum 
+survey_point:zh 
+local_code 
+loc_name 
+map_size region
+mofa 
+hgv:national_network 
+rednap:longitud 
+FLATE 
+siruta:county 
+building farm_auxiliary
+artwork_type sculpture
+light:colour 
+recycling:cans 
+shop alcohol
+name_2 
+circuits 
+name:nl 
+adot_name 
+seamark:light:period 
+shop hardware
+lamp_flames 
+ref_catastral 
+snowplowing 
+board_type 
+designation public_footpath
+chile:region 
+building terrace
+check_date 
+door 
+pump 
+canvec:CODE 
+sorting_name 
+railway station
+canoe 
+gtfs_id 
+cuisine italian
+sport athletics
+KSJ2:river_id 
+camera:type 
+camera:direction 
+seamark:kystverket:reference 
+boundary 
+castle_type 
+bunker_type 
+damage:review_date 
+fireplace 
+to 
+network VOR
+location outdoor
+capacity:persons 
+motor_vehicle 
+building:structure 
+ssr:stedsnr 
+shop tailor
+frequency 
+hgv:state_network 
+landcover trees
+building:ruian:type 
+building:place 
+building:levels:underground 
+toilets:wheelchair 
+KSJ2:ARE 
+building:fireproof 
+clc:code 
+leaf_cycle 
+contact:phone 
+building:cladding 
+construction tertiary
+railway:etcs 
+lamp_type 
+destination 
+note:city 
+motor_vehicle yes
+odbl 
+board_type notice
+maxspeed:hgv:conditional 
+manufacturer:type 
+amenity childcare
+shop motorcycle
+LandPro08:LC 
+length_unit km
+design delta
+boat 
+drive_through 
+fence_type metal
+leisure playground
+sloped_curb yes
+bicycle_parking 
+seamark:topmark:colour 
+dataset 
+basin 
+maxheight 
+moped 
+railway:traffic_mode 
+tunnel yes
+building 
+dcgis:lot 
+bench yes
+man_made silo
+building damaged
+name:en 
+maaamet:ETAK 
+backup_generator 
+backrest 
+population 
+rotor:diameter 
+ford 
+restriction only_straight_on
+axle_load 
+KSJ2:PubFacAdmin 
+toll:N3 
+authoritative 
+gnis:created 
+place 
+is_in:country 
+tourism hostel
+KSJ2:lake_id 
+railway halt
+clothes 
+atm 
+Shape_Area 
+roof 
+piste:oneway 
+diet:vegetarian 
+generator:place 
+artist_name 
+teryt:stan_na 
+seasonal yes
+change:lanes:backward 
+lanes:forward 
+architect 
+brand:en 
+admin_level 7
+animal 
+aeroway hangar
+dog 
+shape:elevation 
+reservoir_type 
+name:th 
+building church
+Province 
+logainm:ref 
+fuel:octane_98 
+amenity 
+name:ja_rm 
+catmp-RoadID 
+fuel:octane_92 
+note:es 
+tactile_paving no
+name:ro 
+name:ar1 
+fog 
+alt_name:en 
+note:lanes 
+roof:angle 
+construction motorway
+opening_date 
+agricultural 
+leisure sauna
+railway:signal:distant:form 
+office yes
+cutting 
+amenity veterinary
+farmland 
+building:roof 
+fee no
+alt_name 
+metcouncil:sat_trips 
+station subway
+crossing:light 
+KSJ2:LOC 
+building:foundation_height 
+smoothness good
+oneway:bicycle 
+house terraced
+amenity theatre
+accuracy:meters 
+massgis:SOURCE_MAP 
+aeroway 
+tunnel no
+building chapel
+healthcare dentist
+drinking_water 
+parking underground
+building collapsed
+maxspeed:lanes 
+incline up
+cutline 
+supervised yes
+mvdgis:cod_nombre 
+shop chemist
+tourism alpine_hut
+button_operated 
+foot permissive
+crossing 
+redwood_city_ca:addr_id 
+cemetery 
+narrow 
+amenity parking_space
+object:country 
+waterway drain
+tourism camp_site
+old_ref 
+CONCELHO 
+natural saddle
+second_hand 
+foot destination
+fuel:lpg 
+service 
+building_status 
+voltage 10000
+acres 
+lamp_model:de 
+manufacturer 
+waterway:llid 
+recycling:plastic_bottles 
+recycling:plastic_packaging 
+man_made street_cabinet
+destination:backward 
+building storage_tank
+shop outdoor
+lacounty:bld_id 
+name:left 
+route railway
+tourism viewpoint
+massgis:SOURCE_SCA 
+diameter_crown 2
+landuse reservoir
+Rzedna_osi 
+KSJ2:lat 
+bicycle use_sidepath
+currency:EUR 
+maxspeed:practical 
+hov 
+colour:arrow 
+post_box:type 
+leaf_cycle semi_deciduous
+delivery 
+abandoned:building 
+building greenhouse
+construction secondary
+access no
+tourism 
+natural peak
+railway buffer_stop
+DISTRITO 
+dispensing 
+direction 
+roundtrip 
+building:type:pl 
+vehicle agricultural
+amenity grit_bin
+arpav_codice_bacino 
+fire_hydrant:housenumber 
+is_in:continent 
+foot 
+building:adjacency 
+roof:orientation 
+bus yes
+railway:tilting 
+crop hop
+natural reef
+government 
+lacounty:ain 
+car 
+female yes
+fire_hydrant:pressure 
+KSJ2:RIN 
+contact:email 
+water 
+carriageway_ref 
+isced:level 
+healthcare clinic
+TMC:cid_58:tabcd_1:Direction 
+KSJ2:PRC_label 
+heritage:ref 
+toilets:position 
+motorboat yes
+description:de 
+maxspeed:bus 
+change:lanes:forward 
+highway secondary
+attraction 
+sport basketball
+barrier hedge
+capital 
+branch 
+accuracy 
+path 
+KSJ2:PRC 
+KSJ2:BDC_label 
+status 
+capacity 15
+share_taxi 
+species Juglans regia
+electrified 
+royal_cypher 
+diameter 
+maxweight 
+dispensing yes
+mechanical 
+metcouncil:wkdy_trips 
+payment:visa 
+meadow agriculture
+class:bicycle:mtb 
+aerialway pylon
+gnis:feature_id 
+protected yes
+rednap:grupo 
+name:oc 
+CLC:year 
+surface:grade 
+tracktype grade2
+LINZ:layer 
+review no
+KSJ2:curve_id 
+ele:accuracy 
+genus Acer
+power pole
+name:zh 
+conveying 
+railway:atb 
+amenity grave_yard
+building industrial
+damage:type 
+highway rest_area
+hgv delivery
+seamark:distance_mark:distance 
+project:mappingforniger 
+lanes 
+drive_through no
+4wd_only 
+gnis:county_name 
+horse no
+voltage 150000
+gnis:County 
+location:accuracy 
+KSJ2:LIN 
+design h-frame
+highway tertiary
+CEMT 
+payment:coins 
+kvl_hro:amenity 
+area 
+condition 
+massgis:ASSESS_ACR 
+waterway stream
+crossing_ref 
+ship 
+heritage yes
+buildingpart room
+maxspeed 
+network ZTM Warszawa
+dcgis:featurecode 
+CLC:explanation 
+tracktype grade1
+proposed 
+Mapper 
+meadow 
+STIF:zone 
+building:use:pl 
+landcover scrub
+person:date_of_birth 
+railway:switch:electric 
+GNS:dsg_string 
+landcover 
+building:part 
+denotation 
+GNS:id 
+highway:category:pl 
+bridge:structure 
+ramp yes
+arpav_codice_sottobacino 
+FMMP_reviewed 
+amenity restaurant
+light:lit 
+substance water
+date 
+supervised no
+circumference 
+converted_by Track2osm
+abandoned yes
+product 
+recycling:glass_bottles 
+TMC:cid_58:tabcd_1:LCLversion 
+pipeline 
+KSJ2:COP_label 
+iucn_level 
+building:levels 
+couplings 
+lamp_model 
+level -1;0
+VRS:gemeinde 
+transformer 
+object:postcode 
+CLC:code 
+is_in:suburb 
+smoking yes
+sport boules
+self_service 
+short_name 
+inscription 
+LINZ:dataset 
+TMC:cid_58:tabcd_1:Class 
+Dzielnica 
+protected 
+delivery yes
+NJDOT_SRI 
+hgv designated
+recycling:clothes 
+IPP:CodEdificio 
+highway_authority_ref 
+authoritative yes
+siruta:code_sup 
+bus:lanes 
+name:es 
+SEP:CLAVEESC 
+KSJ2:LPN 
+club 
+is_in 
+cycleway 
+kvl_hro:type 
+name:zh_pinyin 
+motorboat 
+lit 
+shop stationery
+amenity drinking_water
+TMC:cid_58:tabcd_1:LocationCode 
+maxspeed:conditional 
+amenity nursing_home
+name:vi 
+project:eurosha_2012 
+dcgis:dataset 
+smoothness very_bad
+building:roof:shape 
+smoothness 
+local_ref 2
+highway track
+amenity parking_entrance
+indoor corridor
+office telecommunication
+dcgis:captureyear 
+junction 
+bollard removable
+mtb:scale:uphill 
+golf 
+electrified no
+loading_gauge GB
+siruta:county_id 
+amenity recycling
+KSJ2:WSC 
+fire_hydrant:street 
+health_facility:type 
+addr2:housenumber 
+incline 0.1
+NOME 
+historic heritage
+shop deli
+stop 
+light:shape 
+massgis:OWNER_TYPE 
+massgis:ARTICLE97 
+covered 
+shop car_parts
+ID 
+crossing:bell 
+WroclawGIS:building:date 
+clc:year 
+divipola 
+social_facility:for 
+cosmha yes
+snowmobile yes
+gnis:feature_type 
+OBJTYPE 
+door hinged
+bus 
+china_class 
+operational_status_quality confirmed
+route_ref 
+crossing zebra
+building:level 
+building:architecture 
+natural bay
+light:method 
+building:condition 
+KSJ2:RIC 
+railway:signal:minor 
+couplings 3
+massgis:PUB_ACCESS 
+religion muslim
+parking:condition:left 
+is_in:village 
+bicycle_parking stands
+colour:back 
+disused:shop 
+admin_level 4
+Rzedna_ter 
+railway:signal:minor:states 
+SK53_bulk:load 
+switch disconnector
+capacity:women 
+railway:signal:main:function 
+gauge 1524
+barrier gate
+capacity:disabled 
+note:name 
+plot_number 
+age semi-mature
+dibavod:id 
+hgv:lanes 
+Shape_Leng 
+fuel:diesel 
+name:de 
+heritage 
+gauge 1000
+circuits 2
+Srednica 
+amenity townhall
+building service
+shop hairdresser
+TIPO 
+railway:signal:minor:form 
+landuse farm
+abandoned:railway 
+minspeed 40 mph
+maintenance 
+network lcn
+building residential
+highway motorway
+seamark:light:reference 
+payment:notes 
+VRS:ortsteil 
+natural spring
+segregated 
+accuracy 10
+board_type nature
+building:fi:id 
+TMC:cid_58:tabcd_1:PrevLocationCode 
+border_type county
+design guyed_h-frame
+census:population 
+bak:fac_type2 
+population:date 
+service crossover
+OBJECTID 
+designated_direction 
+fire_hydrant:couplings 
+colour:text 
+type multipolygon
+VRS:ref 
+building:colour 
+garden:type 
+communication 
+natural mud
+recycling:plastic 
+CLC:id 
+metcouncil:site_hfn 
+shelter yes
+KSJ2:BDC 
+abutters residential
+building roof
+KSJ2:ODC 
+design three-level
+maaamet:orig_tunnus 
+type boundary
+building_type 
+drinking_water no
+loc_ref 
+massgis:OWNER_ABRV 
+building:use:residential 
+crossing:island 
+landuse garages
+route foot
+massgis:EOEAINVOLV 
+voltage 750
+destination:lanes 
+office ngo
+side 
+embankment yes
+waterway canal
+amenity fuel
+frequency 16.67
+access:conditional 
+capacity:teachers 
+access:roof 
+int_ref 
+KSJ2:filename 
+chile:surface 
+overtaking 
+seats 
+lamp_type high_pressure_sodium
+access public
+highway tertiary_link
+surveillance 
+istat_id 
+mapper mspray9
+amenity car_rental
+name:sr 
+crop corn
+leaf_type 
+entrance 
+highway service
+goods yes
+surveillance:zone 
+border_type 
+species:en 
+level 0;1
+level 1
+sport swimming
+metcouncil:routes 
+LandPro08:LC_NAME 
+religion shinto
+rednap:altitudortometrica 
+brand:wikipedia 
+exit 
+denomination lutheran
+bak:fac_type1 
+contact:facebook 
+public_transport 
+local_ref 
+code 
+collection_times 
+building:floor 
+railway:radio 
+is_in:town 
+complete 
+network:type 
+passenger_lines 2
+step_count 
+GNS:dsg_name 
+highway turning_loop
+amenity mobile_money_agent
+service drive-through
+constituency 
+construction_date 
+GNS:dsg_code 
+disused 
+capital 8
+name:pl 
+nvdb:id 
+bench no
+crop grass
+email 
+stars 4
+lcn 
+KSJ2:curve_type 
+name:he 
+capacity 8
+old_postal_code 
+contact:twitter 
+barrier bollard
+contact:website 
+amenity cafe
+building barn
+name:hsb 
+leisure water_park
+rednap:tipo 
+logainm:url 
+gnis:Class 
+cosmha 
+building retail
+gtfs_location_type 
+building:use 
+circuits 1
+network rcn
+sport beachvolleyball
+couplings:diameters 
+leaf_cycle mixed
+building:age 
+name:be 
+building semi
+gnis:state_id 
+created_by 
+amenity social_facility
+surrey:addrid 
+crop grape
+crop 
+is_in:province 
+crossing:saltire 
+genus 
+metcouncil:dfz 
+hoops 
+lbcs:activity:name 
+access forestry
+maxwidth 
+cuisine 
+structure solid
+direction clockwise
+cycleway:right 
+gnis:ftype 
+capacity:parent 
+cycling_width 
+class:bicycle 
+barrier guard_rail
+garmin_type 
+design two-level
+amenity bank
+building public
+amenity ice_cream
+amenity kindergarten
+fence_type split_rail
+not:name 
+stars 
+service parking_aisle
+reg_name 
+denomination 
+detail 
+railway:position 
+building:usage:pl 
+depth 
+technology 
+LandPro08:DE5 
+natural scrub
+mappingdc:gid 
+recycling:glass 
+import budovy201004drev
+material wood
+toll no
+capacity:pupils 
+design:ref 
+destination:forward 
+sidewalk:both:surface 
+designation 
+room 
+service yard
+structure_gauge 
+fhrs:authority 
+siruta:type 
+change:lanes 
+building:height 
+destination:ref 
+abandoned 
+lbcs:function:name 
+highway motorway_junction
+bdouble 
+highway services
+railway:signal:shunting:height 
+name:ca 
+local_ref 1
+diameter_crown 
+lit no
+shop cosmetics
+diet:vegan 
+flood_prone yes
+is_in:left 
+barrier cycle_barrier
+disused:railway 
+driveway 
+highway milestone
+construction yes
+denomination protestant
+school:FR 
+light_rail 
+mapper mspray15
+metcouncil:site_at 
+format 
+ekatte 
+metcouncil:corn_desc 
+name:ja-Hira 
+hgv destination
+kerb lowered
+name:bg 
+median no
+mapillary 
+location:transition 
+name:ga 
+enforcement 
+access private
+bin 
+toll 
+outdoor_seating 
+est_width 
+trees 
+amenity toilets
+intermittent yes
+evacuation_center 
+ewmapa:funkcja 
+oneway -1
+llid 
+ewmapa:kod_znakowy 
+description Parken (allgemein)
+exit_to 
+from 
+fdot:fihs 
+FMMP_reviewed no
+motorroad yes
+order 
+amenity bench
+constituency Strategic Routes
+fdot:sis 
+landuse brownfield
+fee 
+shop furniture
+noname 
+buildingpart 
+mml:ref 
+railway:signal:speed_limit 
+female 
+name:fa 
+map_type 
+fence_type 
+amenity place_of_worship
+placement:forward 
+fire_hydrant:city 
+highway steps
+disused:amenity 
+aeroway apron
+piste:grooming 
+fhrs:local_authority_id 
+cycleway crossing
+map_size site
+fid 
+fire_hydrant:coupling_type 
+tourism picnic_site
+HFCS Principal Arterial - Other
+admin_level 5
+parking_space 
+fire_hydrant:position 
+fire_hydrant:type 
+barrier kerb
+denomination methodist
+access permissive
+species Robinia pseudoacacia
+restriction 
+highway:class:pl 
+ewmapa:warstwa 
+memorial statue
+access 
+admin_level 6
+fire_hydrant:type:zh 
+house 
+substation 
+sloped_curb 
+flood_prone 
+gauge 1676
+highway 
+railway:track_type 
+fuel:cng 
+psv 
+fuel:octane_95 
+full_id 
+name:en1 
+parking_space disabled
+name:sv 
+service spur
+object:city 
+lamp_ref 
+generator:method 
+amenity swimming_pool
+shoulder yes
+leisure marina
+admin_level 
+generator:type 
+network:short 
+import_ref 
+tourism museum
+diocese 
+genus:de 
+genus:en 
+name:kk 
+railway narrow_gauge
+seamark:beacon_lateral:shape 
+phases 
+man_made chimney
+is_in:commune 
+height:range 
+massgis:TOWN_ID 
+massgis:ATT_DATE 
+wikimedia_commons 
+gid 
+LandPro08:LU 
+lamp_mount straight_mast
+name:cy 
+gnis:ST_alpha 
+gnis:ST_num 
+gnis:edited 
+admin_level 11
+line 
+gnis:id 
+covered yes
+man_made survey_point
+recycling:cardboard 
+junction:ref 
+religion hindu
+gnis:reviewed 
+taxi yes
+massgis:WETCODE 
+gns:ufi 
+landuse military
+damage:event 
+golf_cart 
+notas 
+natural bare_rock
+highway bus_stop
+barrier swing_gate
+bicycle 
+natural glacier
+at_bev:addr_date 
+coa:place_id 
+shop optician
+FID 
+species Gleditsia triacanthos
+snowmobile 
+traffic_signals:sound 
+LandPro08:DE3 
+network S
+noref 
+building:walls 
+listed_status 
+highways_england:area 
+import 
+house semi-detached
+nycdoitt:bin 
+camera:mount 
+china_class zhen
+material stone
+name:genitive 
+mtb:type 
+handrail 
+handrail:left 
+handrail:right 
+hazmat 
+leisure slipway
+healthcare 
+esr:user 
+expressway 
+seamark:light:height 
+ine:municipio 
+design guyed_v-frame
+shop jewelry
+historic citywalls
+postal_code 
+name:cs 
+rer_edi_id:ref 
+railway:pzb 
+bicycle private
+heritage:website 
+hgv 
+tourism caravan_site
+operational_status_quality 
+amenity private_toilet
+species:it 
+button_operated no
+is_in:county 
+gns:dsg 
+public_transport platform
+lamp_ref_swd 
+lamp_mount 
+condition good
+owner 
+mountain_pass 
+lamp_flames 1
+highspeed 
+hiking 
+foot designated
+historic 
+fvst:navnelbnr 
+historic:civilization 
+highway traffic_signals
+id 
+indoor 
+building commercial;residential
+int_name 
+subway yes
+internet_access 
+produce 
+CLC:shapeId 
+maxspeed:backward 
+memorial 
+tactile_paving 
+is_in:region 
+is_in:right 
+nat_name 
+lcn_ref 
+damage:reconstruction 
+name:fi 
+KSJ2:forest_id 
+snowmobile no
+bmo:type 
+surface compacted
+condition deficient
+crossing no
+massgis:IT_VALDESC 
+import_ref kapor_names
+restriction only_left_turn
+building slurry_tank
+recycling:scrap_metal 
+shop 
+railway:local_operated 
+kerb 
+koatuu 
+surface pebblestone
+healthcare doctor
+leisure pitch
+idp:camp_site 
+note:ja 
+leaf_cycle semi_evergreen
+ski 
+length_unit 
+network lwn
+leisure sports_centre
+lanes:backward 
+intermittent 
+lanes:both_ways 
+layer 
+surface grass_paver
+level 
+religion 
+highway motorway_link
+motorcar designated
+massgis:FY_FUNDING 
+man_made breakwater
+levels 
+taxi 
+taxon 
+taxon:cultivar 
+highway turning_circle
+taxon:species 
+rednap:ficha 
+barrier ditch
+entrance unisex
+ruins yes
+gtfs_stop_code 
+tents 
+teryt:simc 
+teryt:typ 
+teryt:updated_by 
+location overground
+tidal 
+is_in:iso_3166_2 
+exit yes
+hgv no
+parking:condition:both 
+route mtb
+snowmobile designated
+railway:signal:shunting 
+admin_level 9
+design flag
+is_in:state_code 
+design asymmetric
+cycleway shared
+amenity car_wash
+genus Aesculus
+demolished:building 
+time 
+toilet:num_chambers 
+amenity waste_disposal
+toilets 
+OBJTYPE Myr
+toilets:access 
+toilets:disposal 
+toilets:num_chambers 
+toilets:number 
+leisure fitness_centre
+tower:construction 
+motor_vehicle forestry
+tower:type 
+traces 
+contact:vk 
+tracks 
+tracktype 
+traffic 
+sac_scale hiking
+traffic_sign:2 
+traffic_sign:3 
+substation transmission
+capacity 7
+traffic_sign:forward 
+wheelchair:description 
+building manufacture
+traffic_signals:direction 
+horse designated
+trail_visibility 
+importance 
+tram 
+backup_generator no
+triangulation_point 
+trolley_wire 
+departures_board 
+trolleybus 
+ts_calle 
+TMC:cid_58:tabcd_1:NextLocationCode 
+ts_desde 
+ts_hacia 
+capacity 20
+shop funeral_directors
+tunnel:name 
+denotation urban
+metcouncil:sun_trips 
+landuse landfill
+ref_name 
+highway residential
+is_in:state 
+colour gray
+lamp_type gaslight
+shop seafood
+uic_ref 
+amenity police
+seamark:notice:function 
+gns_ufi 
+height 
+usage 
+railway crossing
+vehicle 
+vending 
+via 
+voltage 
+crossing:barrier 
+voltage:primary 
+voltage:secondary 
+importance regional
+motorcar 
+history 
+overtaking yes
+waste_basket 
+route hiking
+highway footway
+waterway:type 
+wheelchair 
+width 
+wikidata 
+surface cobblestone
+image 
+zip_left 
+name:hi 
+network VRR
+mhs:inscription_date 
+zone:maxspeed 
+area yes
+4wd_only yes
+crossing traffic_signals
+metcouncil:site_id 
+CONCELHO FIGUEIRA DE CASTELO RODRIGO
+DISTRITO GUARDA
+FMMP_modified no
+HFCS Urban Collector
+crossing unmarked
+HFCS Urban Principal Arterial
+name:sr-Latn 
+amenity bar
+aerialway 
+HFCS Urban Principal Arterial - Other
+Mapper mspray8
+NHS STRAHNET
+damage 
+Province Bataan
+Province Batangas
+man_made pier
+communication:mobile_phone 
+Province Ilocos Norte
+Srednica 80
+name:hu 
+access agricultural
+access customers
+access destination
+access unknown
+advertising billboard
+LandPro08:LU_NAME 
+advertising column
+aerialway station
+aeroway gate
+shop toys
+aeroway helipad
+aeroway runway
+amenity bureau_de_change
+train 
+traffic_sign 
+industrial 
+aeroway taxiway
+age mature
+agricultural no
+chicago:building_id 
+agricultural yes
+allotments plot
+man_made wastewater_plant
+railway 
+amenity arts_centre
+amenity bbq
+id_ob 
+level -1
+information guidepost
+amenity bicycle_parking
+amenity bicycle_rental
+amenity biergarten
+natural tree
+leisure fitness_station
+amenity charging_station
+sport american_football
+amenity cinema
+amenity clinic
+amenity college
+shop greengrocer
+amenity community_centre
+man_made surveillance
+bicycle dismount
+amenity embassy
+amenity fast_food
+amenity ferry_terminal
+departures_board no
+amenity fire_station
+amenity hospital
+amenity hunting_stand
+place quarter
+amenity library
+amenity marketplace
+amenity parking
+landuse vineyard
+amenity pharmacy
+amenity post_box
+display 
+amenity post_office
+amenity prison
+amenity public_building
+highway trunk_link
+amenity school
+amenity shelter
+amenity taxi
+amenity telephone
+contact:fax 
+amenity university
+leaf_type mixed
+amenity vending_machine
+location indoor
+amenity waste_basket
+mapper mspray14
+healthcare hospital
+seamark:type 
+construction motorway_link
+maxaxleload 
+name:ja_kana 
+building garage
+hazmat designated
+bollard 
+type route_master
+backrest no
+barrier block
+sport climbing
+barrier cattle_grid
+barrier chain
+crossing uncontrolled
+area no
+barrier city_wall
+barrier entrance
+barrier kissing_gate
+railway tram_stop
+barrier lift_gate
+barrier retaining_wall
+barrier stile
+shop houseware
+barrier toll_booth
+barrier wall
+maxspeed:variable 
+barrier yes
+construction trunk
+colour brown
+basin retention
+bdouble yes
+bicycle designated
+fuel:e10 
+sidewalk left
+bicycle no
+bicycle permissive
+bicycle_parking wall_loops
+category 
+bin no
+capacity 12
+shop variety_store
+horse permissive
+level 2
+diameter_crown 6
+board_type history
+boat yes
+border_type city
+goods 
+border_type freguesia
+boundary national_park
+boundary political
+brand 
+building bungalow
+electrified contact_line
+boundary postal_code
+massgis:DEED_ACRES 
+boundary protected_area
+building hospital
+brand Deutsche Post
+vehicle destination
+maxspeed:type 
+amenity shower
+brand McDonald's
+brand Shell
+leaf_type broadleaved
+bridge viaduct
+barrier fence
+bridge yes
+name:en2 
+building static_caravan
+building apartments
+website 
+building bunker
+natural rock
+building cabin
+building carport
+building civic
+building college
+admin_level 8
+building commercial
+building construction
+button_operated yes
+building cowshed
+building detached
+building hangar
+building garages
+building hotel
+building house
+building hut
+seamark:mooring:category 
+building kindergarten
+location roof
+building kitchen
+building mosque
+building school
+material metal
+place suburb
+highway give_way
+building shed
+int_ref AH1
+building silo
+building stable
+power catenary_mast
+building train_station
+building transformer_tower
+light_rail yes
+prow_ref 
+building trullo
+building university
+note:en 
+building warehouse
+railway disused
+bunker_type pillbox
+aeroway aerodrome
+cables 1
+cables 3
+seasonal no
+cables 6
+capacity 1
+capacity 10
+capacity 2
+capacity 3
+motor_vehicle designated
+capacity 30
+electrified rail
+capacity 4
+sidewalk separate
+capacity 50
+is_in:country_code 
+cemetery sector
+china_class xiang
+circumference 0.15
+circumference 0.16
+historic tomb
+motor_vehicle agricultural;forestry
+circumference 0.3
+colour #000000
+colour #ff0000
+colour black
+colour green
+surface 
+colour red
+shop beauty
+colour white
+NHS 
+condition fair
+stop_id 
+construction house
+construction residential
+residential urban
+content silage
+passenger_information_display no
+content water
+covered no
+place city_block
+craft carpenter
+shop bicycle
+crop rice
+leisure stadium
+facebook 
+crop tea
+crossing island
+crossing_ref pelican
+crossing_ref zebra
+network HVV
+cuisine american
+bin yes
+cuisine asian
+cuisine chicken
+cuisine chinese
+fhrs:id 
+access yes
+cuisine coffee_shop
+tree_form natural
+ele 
+railway:signal:main:height 
+tree:ref 
+cuisine french
+cuisine german
+cuisine ice_cream
+reservoir_type water_storage
+cuisine indian
+cuisine japanese
+cuisine kebab
+voltage 500000
+mechanical yes
+cuisine mexican
+side right
+object:suburb 
+cuisine pizza
+gnis:County_num 
+memorial plaque
+is_in:city 
+cuisine regional
+official_status ru:???????? ?????????
+cuisine sandwich
+recycling:waste 
+segregated yes
+cuisine sushi
+roof:material 
+cutting yes
+information 
+cuisine thai
+maxweight 20
+highway speed_camera
+historic archaeological_site
+cutline section
+amenity dentist
+diameter_crown 3
+cycleway lane
+cycleway opposite
+denomination sunni
+cycleway shared_lane
+amenity doctors
+cycleway track
+dataset buildings
+fence_type wood
+delivery no
+denomination anglican
+denomination baptist
+denomination catholic
+tree_form 
+denomination orthodox
+diameter_crown 1
+natural cave_entrance
+denotation agricultural
+denotation landmark
+horse yes
+denotation natural_monument
+denotation park
+denotation street
+departures_board timetable
+description Gebäude (allgemein)
+description Wohnhaus (allgemein)
+design triangle
+designation public_bridleway
+detail track
+roof:direction 
+diameter_crown 4
+diameter_crown 5
+man_made flagpole
+diameter_crown 7
+diameter_crown 8
+maritime yes
+material concrete
+direction backward
+voltage 110000
+name:br 
+railway:gnt 
+direction forward
+drinking_water yes
+public_transport:version 
+drive_through yes
+editor opengislab 2018
+electrified yes
+emergency defibrillator
+landuse aquaculture
+emergency fire_hydrant
+emergency no
+emergency phone
+emergency water_tank
+emergency yes
+wikipedia 
+enforcement maxspeed
+entrance home
+shop bakery
+entrance main
+structure lattice
+boat no
+expressway yes
+fee yes
+school:type_idn 
+motorcar no
+fence_type barbed_wire
+osm_id 
+meadow agricultural
+fence_type chain_link
+tourism attraction
+fence_type wire
+fireplace yes
+structure 
+HFCS 
+mapper mspray2
+farmland field
+shop clothes
+natural fell
+name 
+flood_prone no
+foot no
+FMMP_modified 
+foot official
+placement transition
+foot private
+foot use_sidepath
+footway crossing
+footway sidewalk
+segregated no
+frequency 0
+frequency 16.7
+highway primary_link
+railway light_rail
+line busbar
+railway:signal:main 
+admin_level 10
+floating yes
+landuse forest
+amenity water_point
+gauge 1067
+gauge 1435
+gauge 1600
+gauge 1668
+NYSTL:PRINTKEY 
+genus Celtis
+genus Elaeis
+genus Eucalyptus
+network ru:regional
+dcgis:gis_id 
+capacity 6
+genus Fraxinus
+genus Gleditsia
+genus Malus
+genus Musa
+genus Picea
+genus Pinus
+genus Platanus
+genus Quercus
+golf bunker
+golf cartpath
+capacity 5
+golf fairway
+golf green
+LINZ:source_version 
+amenity motorcycle_parking
+golf hole
+golf tee
+network VBN
+foot yes
+goods no
+gritting priority_1
+teryt:rm 
+man_made monitoring_station
+gtfs_location_type 0
+handrail no
+healthcare pharmacy
+heritage 2
+heritage 3
+tourism apartment
+hazard 
+heritage 4
+park_ride yes
+hgv yes
+gritting 
+shop tyres
+surface concrete:lanes
+highspeed no
+highway construction
+highspeed yes
+highway corridor
+highway elevator
+mapper mspray5
+building:soft_storey 
+highway emergency_access_point
+highway living_street
+highway passing_place
+highway path
+supervised 
+natural cape
+highway pedestrian
+highway platform
+name:uk 
+highway primary
+highway proposed
+highway raceway
+bridge 
+highway secondary_link
+highway street_lamp
+highway trunk
+railway signal
+highway unclassified
+historic boundary_stone
+massgis:OS_DEED_PA 
+landuse logging
+historic building
+historic castle
+historic charcoal_pile
+seasonal 
+service irrigation
+historic memorial
+mtb yes
+historic monument
+design monopolar
+historic ruins
+cycleway no
+historic wayside_cross
+internet_access wlan
+type associatedStreet
+historic wayside_shrine
+horse private
+import budovy201004
+power portal
+import yes
+parking:condition:right 
+description 
+name:ja 
+importance national
+DeKalb:id 
+incline 0
+incline down
+heritage 8
+indoor room
+industrial oil
+information board
+country 
+information map
+is_in:district 
+residential rural
+information office
+int_ref E 45
+motorcar destination
+int_ref E 75
+internet_access no
+review 
+junction yes
+floating 
+kerb flush
+kerb raised
+lamp_flames 4
+lamp_mount bent mast
+lamp_mount bent_mast
+natural water
+lamp_mount straight mast
+lamp_type LED
+lamp_type electrical
+lamp_type led
+land_area administrative
+landuse allotments
+landuse basin
+building:flats 
+landuse commercial
+object:citydistrict 
+landuse construction
+landuse farmland
+landuse farmyard
+railway:track_ref 
+man_made cutline
+landuse grass
+landuse greenery
+landuse greenhouse_horticulture
+design donau
+hide 
+landuse meadow
+NHS yes
+WroclawGIS:building:ID 
+entrance service
+landuse orchard
+landuse plant_nursery
+atm yes
+place island
+landuse railway
+landuse religious
+seamark:beacon_lateral:category 
+landuse residential
+ts_codigo 
+lcn yes
+leaf_cycle evergreen
+gvr:code 
+leaf_type needleleaved
+motorcycle yes
+leisure common
+leisure dog_park
+brand:wikidata 
+building:roof:colour 
+railway platform
+leisure firepit
+leisure garden
+leisure golf_course
+leisure nature_reserve
+leisure park
+substation distribution
+leisure picnic_table
+intermittent no
+leisure swimming_pool
+leisure track
+switch circuit_breaker
+level -2
+pump manual
+gfoss_id 
+level 0
+level 3
+content 
+priority_road designated
+lit yes
+living_street yes
+maintenance gritting
+man_made dyke
+man_made embankment
+man_made gasometer
+man_made kiln
+natural wetland
+man_made lighthouse
+man_made manhole
+man_made mast
+backrest yes
+light:tilt 
+recycling:batteries 
+man_made reservoir_covered
+man_made storage_tank
+end_date 
+damage:assessment 
+man_made tower
+emergency 
+KSJ2:coordinate 
+man_made water_tower
+species Quercus robur
+man_made water_well
+man_made water_works
+historic yes
+abutters 
+place neighbourhood
+route ferry
+man_made works
+shop electronics
+access delivery
+gns_classification 
+manhole sewer
+mapper mspray1
+siruta:code 
+mapper mspray11
+mapper mspray12
+mapper mspray13
+mapper mspray3
+mapper mspray7
+material brick
+support pole
+material plastic
+material reinforced_concrete
+indoor wall
+material steel
+type 
+maxaxleload 10
+maxaxleload 11.5
+maxheight 4.1
+operational_status open
+oneway 
+sport 
+social_facility 
+smoothness impassable
+maxheight 5
+maxheight default
+maxheight none
+loading_gauge 
+maxweight 3.5
+maxweight 7.5
+memorial war_memorial
+location underground
+military bunker
+mofa no
+mofa yes
+mooring yes
+design 
+smoothness excellent
+moped designated
+moped no
+recycling_type centre
+amenity nightclub
+motor_vehicle agricultural
+motor_vehicle destination
+motor_vehicle permissive
+motor_vehicle private
+building office
+motorboat no
+motorcar agricultural
+amenity fountain
+motorcar private
+motorcycle designated
+name:ku 
+motorcycle destination
+motorcycle no
+mountain_pass yes
+natural cliff
+natural heath
+natural land
+natural ridge
+natural scree
+natural shingle
+natural stone
+odbl clean
+shoulder no
+service driveway
+natural tree_row
+natural valley
+natural wood
+network NTF-4
+motorroad no
+network RMV
+network SL
+network rwn
+KSJ2:DFD 
+noexit yes
+noname yes
+KSJ2:DFC_label 
+KSJ2:DFC 
+"notas por favor respete las licencias de información y de los créditos correspondientes a las fuentes originales, y a osm en sus trabajos. #LeyLleras"
+ford yes
+recycling_type 
+office administrative
+office association
+highway stop
+office educational_institution
+office estate_agent
+office government
+official_status ru:????
+oneway no
+oneway yes
+name:ko-Latn 
+crop sugarcane
+KSJ2:ADS 
+fence_type railing
+operational_status operational
+shop laundry
+direction both
+smoothness bad
+cycleway:left 
+sac_scale mountain_hiking
+seamark:name 
+healthcare:speciality 
+smoothness intermediate
+denomination roman_catholic
+traffic_signals 
+landcover grass
+disused yes
+order 0
+outdoor_seating no
+outdoor_seating yes
+overtaking no
+park_ride no
+parking multi-storey
+parking surface
+passenger_lines 1
+toilets:handwashing 
+passenger_lines 4
+phases 3
+pipeline marker
+place allotments
+payment:credit_cards 
+land_area 
+place city
+place farm
+place hamlet
+crossing marked
+place islet
+place town
+place village
+placement middle_of:2
+landuse village_green
+social_facility assisted_living
+placement right_of:1
+sport equestrian
+population 0
+building:min_level 
+power cable
+length 
+power generator
+bench 
+power line
+power plant
+survey:date 
+power sub_station
+construction 
+internet_access:fee 
+shop tobacco
+proposed residential
+protect_class 4
+surface paving_stones
+protected perpetuity
+psv yes
+public_transport station
+canvec:UUID 
+public_transport stop_area
+public_transport stop_position
+railway abandoned
+railway construction
+railway milestone
+shop kiosk
+railway preserved
+railway railway_crossing
+recycling:paper 
+locality 
+railway razed
+railway stop
+railway subway
+amenity driving_school
+railway subway_entrance
+symbol 
+railway switch
+editor 
+ramp no
+age 
+landuse cemetery
+recycling_type container
+religion buddhist
+service_times 
+smoothness very_horrible
+religion christian
+restriction no_left_turn
+name:ru 
+unisex 
+restriction no_right_turn
+restriction no_straight_on
+restriction no_u_turn
+name:botanical 
+roundtrip no
+roundtrip yes
+route bicycle
+route power
+route road
+route_master bus
+catastro:ref 
+royal_cypher EIIR
+hiking yes
+sac_scale alpine_hiking
+locality townland
+sac_scale demanding_mountain_hiking
+type waterway
+railway rail
+seats 3
+seats 4
+service emergency_access
+service siding
+share_taxi yes
+shelter_type picnic_shelter
+shop art
+shop books
+content oil
+shop boutique
+shop car
+ownership municipal
+building dormitory
+snowplowing yes
+man_made bridge
+shop car_repair
+shop confectionery
+shelter_type public_transport
+shop convenience
+species Acer platanoides
+shop copyshop
+shop doityourself
+shop dry_cleaning
+shop farm
+shop florist
+shop garden_centre
+shop gift
+shop interior_decoration
+shop mall
+toll:bus 
+shop mobile_phone
+shop shoes
+shop sports
+adr_les 
+shop supermarket
+shop newsagent
+shop travel_agency
+shop vacant
+shop wine
+shop yes
+sidewalk no
+sidewalk none
+frequency 60
+sidewalk right
+phone 
+site geodesic
+site stop_area
+shop pet
+artwork_type statue
+site_type fortification
+ski yes
+building farm
+smoking no
+motorcycle agricultural
+smoking outside
+smoothness horrible
+social_facility group_home
+building semidetached_house
+landuse quarry
+restriction only_right_turn
+garmin_type 0x6
+crop cereal
+rednap:codigoine 
+waterway 
+type site
+crossing_ref toucan
+incline 
+railway:signal:distant:states 
+railway level_crossing
+frequency 50
+generator:output:electricity 
+entrance staircase
+shop beverages
+cuisine burger
+mapper mspray4
+artwork_type 
+internet_access yes
+sport fitness
+building transportation
+design:incomplete 
+border_type nation
+cycleway:both 
+driveway garage
+man_made petroleum_well
+shop computer
+KSJ2:long 
+note:relevance 
