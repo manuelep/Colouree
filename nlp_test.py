@@ -318,19 +318,64 @@ for word in keys:
     if not x=='':
         final_tags.append(x)
 import pandas as pd
+#import nltk
+#nltk.download('stopwords')
+from nltk.corpus import stopwords 
+from nltk.tokenize import word_tokenize 
+stop_words = set(stopwords.words('english'))
 
 df1=pd.DataFrame(columns=final_tags,index=macro_tags)
+#from tqdm import tqdm
+#for i in tqdm(range(0,len(macro_tags))):
+#    for j in range(0,len(final_tags)):
+#        try:
+#
+#            df1.iloc[i,j]=((model.similarity(df1.index[i], df1.columns[j])+model1.similarity(df1.index[i], df1.columns[j]))+0.0000001)/2
+#        except:
+#            try:
+#                df1.iloc[i,j]=((model.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split())+model1.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split()))+0.00001)/2
+##                first=df1.index[i].lower().split()
+##                second=df1.index[j].lower().split()
+##                df1.iloc[i,j]=((model.n_similarity(first, second)+model1.n_similarity(first, second))+0.00001)/2
+##                try:
+##                    first= [w for w in df1.index[i].lower().split() if not w in stop_words]
+##                except:
+##                    first=df1.index[i].lower().split()
+##                try:
+##                    second= [w for w in df1.index[j].lower().split() if not w in stop_words]
+##                except:
+##                    second=df1.index[j].lower().split()
+##                try:
+##                    df1.iloc[i,j]=((model.n_similarity(first, second)+model1.n_similarity(first, second))+0.00001)/2
+##                except:
+##                    df1.iloc[i,j]=((model.similarity(first, second)+model1.n_similarity(first, second))+0.00001)/2
+#            except:
+#                df1.iloc[i,j]=0.0
+df2=pd.DataFrame(columns=final_tags,index=macro_tags)
 from tqdm import tqdm
 for i in tqdm(range(0,len(macro_tags))):
     for j in range(0,len(final_tags)):
         try:
-            df1.iloc[i,j]=((model.similarity(df1.index[i], df1.columns[j])+model1.similarity(df1.index[i], df1.columns[j]))+0.0000001)/2
+
+            df2.iloc[i,j]=model1.similarity(df2.index[i], df2.columns[j])
         except:
             try:
-                df1.iloc[i,j]=((model.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split())+model1.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split()))+0.00001)/2
+                df2.iloc[i,j]=model1.n_similarity(df2.index[i].lower().split(), df2.columns[j].lower().split())
+            except:
+                df2.iloc[i,j]=0.0
+                
+                
+from tqdm import tqdm
+for i in tqdm(range(0,len(macro_tags))):
+    for j in range(0,len(final_tags)):
+        try:
+
+            df1.iloc[i,j]=model.similarity(df1.index[i], df1.columns[j])
+        except:
+            try:
+                df1.iloc[i,j]=model.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split())
             except:
                 df1.iloc[i,j]=0.0
-
 ##for i in keys:
 ##    df2['%s'.format(i)]=df1['%s'.format(i)]
 
@@ -394,7 +439,8 @@ def andarka_tag(tag_name,keys,nearest_words):
     return result,cr_df
 
 print("took {} secs to run the analysis".format(time.time()-start))
-
+df1.to_csv('newest_tags_relations1.csv')
+df2.to_csv('newest_tags_relations2.csv')
 #result,cr_df=andarka_tag('living',keys,200)
 #education
 #health
