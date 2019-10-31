@@ -6,8 +6,8 @@ import base64,time
 
 def get_oauth_token():
     url = "https://api.idealista.com/oauth/token"    
-    apikey= 'fh5cja5cky5hjsj1j5vqrdjvgj05jmmr' #sent by idealista
-    secret= '3pNm1nFNVWRK'  #sent by idealista
+    apikey= '6i0euma5hz4dn1rnqism574fy9b5js4m' #sent by idealista
+    secret= 'AIuebO2a7TAU'  #sent by idealista
     lll=apikey + ':' + secret
     lll=lll.encode('utf-8')
     auth = base64.b64encode(lll)
