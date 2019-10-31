@@ -9,12 +9,13 @@ from tqdm import tqdm
 import warnings
 warnings.filterwarnings("ignore")
 
-#df=pd.read_csv('idealista.csv')
+eurostat=pd.read_csv('house_price_index.tsv',delimiter='\t')
+df1=pd.read_csv('idealista_data_milan.csv',index_col=0)
 #df1 = pd.DataFrame()
 #df1['latitude']=0
 #df1['longitude']=0
 #k=0
-#
+
 #for i in df['json']:
 #    i = json.loads(i)
 #    lat=df.loc[k,'latitude']
@@ -23,26 +24,26 @@ warnings.filterwarnings("ignore")
 #    df1.loc[k,'latitude']=lat
 #    df1.loc[k,'longitude']=lon
 #    k+=1
-#
-#k=0
-#df1['floor'].replace('[^0-9]', 0, regex=True,inplace=True)
-#df1['floor'].fillna(0,inplace=True)
-#df1['parkingSpace'].fillna(0,inplace=True)
-#df1['parkingSpace'].astype(str).replace('[^0]', 1, regex=True,inplace=True)
-#for j in df1['parkingSpace']:
-#    if str(j)=='0':
-#       df1.loc[k,'parkingSpace']=0
-#    else:
-#       df1.loc[k,'parkingSpace']=1  
-#    k+=1
-#    
+
+k=0
+df1['floor'].replace('[^0-9]', 0, regex=True,inplace=True)
+df1['floor'].fillna(0,inplace=True)
+df1['parkingSpace'].fillna(0,inplace=True)
+df1['parkingSpace'].astype(str).replace('[^0]', 1, regex=True,inplace=True)
+for j in df1['parkingSpace']:
+    if str(j)=='0':
+       df1.loc[k,'parkingSpace']=0
+    else:
+       df1.loc[k,'parkingSpace']=1  
+    k+=1
+    
 ##################       OVERPASS QUERY            ##########################
 ##import overpy
 ##api = overpy.Overpass()
 ##result = api.query("""<osm-script output="json" timeout="60"><union into="_"><query into="_" type="node"><has-kv k="qwerty" modv="not" regv="."/><bbox-query e="8.95385742188" n="44.4151452431" s="44.3925796184" w="8.92227172852"/></query></union><print e="" from="_" geometry="skeleton" limit="" mode="body" n="" order="id" s="" w=""/><recurse from="_" into="_" type="down"/><print e="" from="_" geometry="skeleton" limit="" mode="meta" n="" order="id" s="" w=""/></osm-script>""")
 ##lll=result.nodes
 ##-------------------------------------------------------------------######
-#     
+     
 #k=0
 #all_tags=[]
 #jj=True
@@ -52,7 +53,7 @@ warnings.filterwarnings("ignore")
 #        try:
 #            lat=df1.loc[k,'latitude']
 #            lon=df1.loc[k,'longitude']
-#            req=requests.get('http://overpass-api.de/api/interpreter?data=[out:json];(node[%22amenity%22](around:200,'+str(lat)+','+str(lon)+'););out;%3E;')
+#            req=requests.get('http://overpass-api.de/api/interpreter?data=[out:json];(node[%22amenity%22](around:300,'+str(lat)+','+str(lon)+'););out;%3E;')
 #            req=req.json()['elements']
 #            tags=[]
 #            for l in range(0,len(req)):
@@ -114,8 +115,8 @@ resid=0
 leis=0
 liv=0
 trans=0
-df2=pd.read_csv('idealista_data.csv',index_col=0)
-
+#df2=pd.read_csv('idealista_data.csv',index_col=0)
+df2=df1#pd.read_csv('idealista_data_milan.csv',index_col=0)
 df2['education']=0
 df2['health']=0
 df2['food_drink']=0
@@ -126,7 +127,7 @@ df2['leisure']=0
 df2['living']=0
 df2['transportation']=0
 
-tags_corr=pd.read_csv(r'C:\Users\Colouree\Desktop\Colouree\only_amenity_tags_corr.csv',index_col=0)
+tags_corr=pd.read_csv(r'C:\Users\Colouree\Desktop\Colouree\newest_tags_relations2.csv',index_col=0)#only_amenity_tags_corr
 new_tags=[]
 all_tags=pd.read_csv(r'C:\Users\Colouree\Desktop\Colouree\idealista_tags.csv')
 education=get_nearest_tags('education',tags_corr,7)
@@ -189,7 +190,8 @@ numeric_attr_names=[
  'business',
  'public_spaces',
  'residential',
- 'leisure']#'latitude','longitude', 'exterior',,'living','transportation'
+ 'leisure','transportation'
+]#'latitude','longitude', 'exterior',,'living','transportation'
 """ 'bathrooms',
  'distance',
  'floor',
@@ -309,21 +311,37 @@ plt.title("Feature importance using Lasso Model")
 #X=X[['3','4','6']]
 #X=X[['2','17','9','1','12','16','20']]
 
-X1=X
+
 ################################################################################
 #       feature importance                  ##############################
 ################################################################################
 from sklearn.ensemble import ExtraTreesClassifier
 import matplotlib.pyplot as plt
 model1 = ExtraTreesClassifier()
-model1.fit(X1,y)
+model1.fit(X,y)
 print(model1.feature_importances_) #use inbuilt class feature_importances of tree based classifiers
 #plot graph of feature importances for better visualization
-feat_importances = pd.Series(model1.feature_importances_, index=X1.columns)
+feat_importances = pd.Series(model1.feature_importances_, index=X.columns)
 feat_importances.nlargest(10).plot(kind='barh')
 plt.show()
 ###########     Correlation map         ##################################
 import seaborn as sns
+correlation_attributes=[
+ 'education',
+ 'health',
+ 'food_drink',
+ 'business',
+ 'public_spaces',
+ 'residential',
+ 'leisure',
+ 'bathrooms',
+ 'distance',
+  'size',
+ 'parkingSpace',
+ 'rooms',
+ 'numPhotos','priceByArea']
+X1=df2[numeric_attr_names].astype('float32')
+X1[np.isnan(X)] = 0
 #get correlations of each features in dataset
 corrmat = X1.corr()
 top_corr_features = corrmat.index
@@ -332,9 +350,12 @@ plt.figure(figsize=(20,20))
 g=sns.heatmap(X1[top_corr_features].corr(),annot=True,cmap="RdYlGn")
 plt.show()
 ##############################################################################
+print('###########################################################################')
+print('          Neural Network')
+print('###########################################################################')
 X=np.asarray(X)
 
-X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=0.1)
+X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=0.25)
 X_train[np.isnan(X_train)] = 0
 X_test[np.isnan(X_test)] = 0
 Y_train[np.isnan(Y_train)] = 0
@@ -360,11 +381,11 @@ Y_test[np.isnan(Y_test)] = 0
 
 
 
- 
+
 # define model
 model = Sequential()
-#model.add(Dense(256, activation='tanh',init='uniform', input_dim=np.shape(X_train)[1]))
-model.add(Dense(128, activation='tanh',init='uniform', input_dim=np.shape(X_train)[1]))
+model.add(Dense(256, activation='tanh',init='uniform', input_dim=np.shape(X_train)[1]))
+model.add(Dense(128, activation='tanh'))
 model.add(Dense(64, activation="tanh"))
 model.add(Dense(32, activation="relu"))
 model.add(Dense(1))
@@ -437,7 +458,9 @@ print(std_pred)
 ###########################################################################
 #############   GradientBoostingRegressor     ####################################
 ###########################################################################
-
+print('###########################################################################')
+print('          GradientBoostingRegressor')
+print('###########################################################################')
 
 reg = LinearRegression()
 reg.fit(X_train,Y_train)
@@ -465,6 +488,9 @@ print(std_pred)
 ###########################################################################
 #############   LINEAR REGRESSION       ####################################
 ###########################################################################
+print('###########################################################################')
+print('          LINEAR REGRESSION ')
+print('###########################################################################')
 from sklearn.linear_model import LinearRegression
 clf = LinearRegression()
 clf.fit(X_train, Y_train)
@@ -498,7 +524,9 @@ params=grid_searcher_red.best_params_
 ###########################################################################
 #############   SVM       ####################################
 ###########################################################################
-
+print('###########################################################################')
+print('          Support Vector Machine ')
+print('###########################################################################')
 #from sklearn.svm import SVR
 #from sklearn.svm import SVC
 svclassifier = SVR(kernel=params['kernel'], C=params['C'], gamma=params['gamma'])
@@ -517,20 +545,27 @@ print(std_pred)
 #print(classification_report(y_test, y_pred))
 
 
-############################################################################
-########            TEXT GOES HERE          ################################
-############################################################################
+#############################################################################
+#########            Geometric Plotting          ################################
+#############################################################################
 
-
-
-
-
-
-
-
-
-
-
+#
+#import pandas as pd
+#import matplotlib.pyplot as plt
+#import descartes
+#import geopandas as gpd
+#from shapely.geometry import Point, Polygon
+#street_map=gpd.read_file(r'C:\Users\Colouree\Desktop\Colouree\Italy_shapefile\it_10km.shp')
+#
+#fig,ax=plt.subplots(figsize=(15,15))
+#street_map.plot(ax=ax)
+#
+#
+#
+#
+#
+#
+#
 
 
 
