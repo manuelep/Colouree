@@ -188,7 +188,7 @@
 
 import gensim
 import pandas as pd
-df=pd.read_csv('all_the_values_unique.csv',encoding='latin-1')
+df=pd.read_csv('only_amenity_tags.csv',encoding='latin-1')
 amenity=df['amenity']
 #amenity=df.loc[df['amenity'] == 'social_facility']['value']
 import re
@@ -210,11 +210,11 @@ def concatenate_list_data(list):
 keys=list(set(keys))
 ##lll=[x for x in keys if 'wheelchair' in x]
 keys=[concatenate_list_data(k.split(' ')[0:3]) for k in keys]
-
+keys=[k.replace('centre','center').replace('of','').replace('theatre','theater') for k in keys]
 macro_tags=['education',
 'health',
 'residential',
-'culture', 'culture and leisure',
+'culture', 'culture leisure',
 'hospitality', 'tourism infrastructure','tourism','infrastructure',
 'food drink',
 'government',
@@ -301,7 +301,7 @@ from gensim.models import KeyedVectors
 #####_ = glove2word2vec(glove_file, tmp_file)
 #####model = KeyedVectors.load_word2vec_format(tmp_file)
 #####model.save(r"C:\Users\Colouree\Desktop\Colouree\word2vec.model")
-model=KeyedVectors.load(r"C:\Users\Colouree\Desktop\Colouree\word2vec.model")
+#model=KeyedVectors.load(r"C:\Users\Colouree\Desktop\Colouree\word2vec.model")
 model1=KeyedVectors.load(r"C:\Users\Colouree\Desktop\Colouree\google_word2vec.model")
 print("took {} secs to load the model".format(time.time()-start))
 #start = time.time()
@@ -313,7 +313,7 @@ final_tags=[]
 for word in keys:
     x=''
     for ij in word.split():
-        if ij in model.vocab:
+        if ij in model1.vocab:
             x+=ij+' '
     if not x=='':
         final_tags.append(x)
@@ -365,17 +365,17 @@ for i in tqdm(range(0,len(macro_tags))):
                 df2.iloc[i,j]=0.0
                 
                 
-from tqdm import tqdm
-for i in tqdm(range(0,len(macro_tags))):
-    for j in range(0,len(final_tags)):
-        try:
-
-            df1.iloc[i,j]=model.similarity(df1.index[i], df1.columns[j])
-        except:
-            try:
-                df1.iloc[i,j]=model.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split())
-            except:
-                df1.iloc[i,j]=0.0
+#from tqdm import tqdm
+#for i in tqdm(range(0,len(macro_tags))):
+#    for j in range(0,len(final_tags)):
+#        try:
+#
+#            df1.iloc[i,j]=model.similarity(df1.index[i], df1.columns[j])
+#        except:
+#            try:
+#                df1.iloc[i,j]=model.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split())
+#            except:
+#                df1.iloc[i,j]=0.0
 ##for i in keys:
 ##    df2['%s'.format(i)]=df1['%s'.format(i)]
 
@@ -386,13 +386,28 @@ def get_nearest_tags(tag,df1,nearest_words):
 #    current_tag=cr_df.loc[cr_df.index.values.astype(str)[0]].sort_values(ascending=False)[1:nearest_words+1]
 #    df2=pd.DataFrame(current_tag,columns=tag,index=current_tag.index)
     return df1.loc[tag].sort_values(ascending=False)[1:nearest_words+1]
-    
 
+def unknown_tag(tag_name,macro_tags,*args):
+    if tag_name not in final_tags:
+        final_tags.append(tag_name) 
+    df2=pd.DataFrame(columns=final_tags,index=macro_tags)
+    from tqdm import tqdm
+    for i in tqdm(range(0,len(macro_tags))):
+        for j in range(0,len(final_tags)):
+            try:
+    
+                df2.iloc[i,j]=model1.similarity(df2.index[i], df2.columns[j])
+            except:
+                try:
+                    df2.iloc[i,j]=model1.n_similarity(df2.index[i].lower().split(), df2.columns[j].lower().split())
+                except:
+                    df2.iloc[i,j]=0.0
+    return df2[tag_name]
 def khudka_tag(tag_name,nearest_words):
     import pandas as pd
     df=pd.read_csv('only_amenity_tags.csv',encoding='latin-1')
     amenity=df['amenity'].unique()
-    #
+    
     ## Load Google's pre-trained Word2Vec model.
     #model_gn = gensim.models.KeyedVectors.load_word2vec_format('./GoogleNews-vectors-negative300.bin', binary=True)  
     ##keys = ['Paris', 'Python', 'Sunday', 'Tolstoy', 'Twitter', 'bachelor', 'delivery', 'election', 'expensive',
@@ -403,10 +418,10 @@ def khudka_tag(tag_name,nearest_words):
     for i in range(0,len(keys)):
         for j in range(0,len(keys)):
             try:
-                df1.iloc[i,j]=((model.similarity(df1.index[i], df1.columns[j])+model1.similarity(df1.index[i], df1.columns[j]))+0.0000001)/2
+                df1.iloc[i,j]=((model1.similarity(df1.index[i], df1.columns[j])+model1.similarity(df1.index[i], df1.columns[j]))+0.0000001)/2
             except:
                 try:
-                    df1.iloc[i,j]=((model.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split())+model1.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split()))+0.00001)/2
+                    df1.iloc[i,j]=((model1.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split())+model1.n_similarity(df1.index[i].lower().split(), df1.columns[j].lower().split()))+0.00001)/2
                 except:
                     df1.iloc[i,j]=0.0
     result=get_nearest_tags(tag_name,df1,nearest_words)
