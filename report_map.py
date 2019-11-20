@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 12 14:55:38 2019
+
+@author: Colouree
+"""
 
 import re
 import numpy as np
@@ -24,10 +29,22 @@ mysql = mysql.connector.connect(
 
 frn_id='FRN100000811'
 df = read_sql('select * from syncreport_pl where frenns_id = "'+str(frn_id)+'" ',con=mysql)
+account_type=df['account_type']
 
-account=df['detail_acc_type']
+##---------Ignore this START------------#
+#unique_account_type=list(set(list(account_type)))
+#unique_account_type_t=''
+#for i,j in enumerate(unique_account_type):
+##    print(len(j))
+##    if len(j)>0:
+#        unique_account_type_t+=str(unique_account_type)
+#unique_account_temp=unique_account_type_t.split()
+#unique_account_type_t=list(set(list(unique_account_type_t.split())))
+##---------Ignore this END------------##
+
+#account=df['detail_acc_type']
 regex = re.compile('[^a-zA-Z]')
-account=list(filter(None.__ne__, account))
+account=list(filter(None.__ne__, account_type))
 keys=[regex.sub(' ', i) for i in account]
 def concatenate_list_data(list):
     result= ''
@@ -39,28 +56,28 @@ def concatenate_list_data(list):
     
 keys=list(set(keys))
 ##lll=[x for x in keys if 'wheelchair' in x]
-keys=[concatenate_list_data(k.split(' ')[0:3]) for k in keys]
-macro_tags=['profit']
-from gensim.models import KeyedVectors
-model1=KeyedVectors.load(r"C:\Users\Colouree\Desktop\Colouree\google_word2vec.model")
-#import psutil
-## gives a single float value
-#psutil.cpu_percent()
-## gives an object with many fields
-#psutil.virtual_memory()
-## you can convert that object to a dictionary 
-#mem_usage=dict(psutil.virtual_memory()._asdict())
-df2=pd.DataFrame(columns=macro_tags,index=keys)
-from tqdm import tqdm
-for i in tqdm(range(0,len(keys))):
-    for j in range(0,len(macro_tags)):
-        try:
-            df2.iloc[i,j]=model1.similarity(df2.index[i], df2.columns[j])
-        except:
-            try:
-                df2.iloc[i,j]=model1.n_similarity(df2.index[i].lower().split(), df2.columns[j].lower().split())
-            except:
-                df2.iloc[i,j]=0.0
+#keys=[concatenate_list_data(k.split(' ')[0:3]) for k in keys]
+macro_tags=['cost sales']
+#from gensim.models import KeyedVectors
+#model1=KeyedVectors.load(r"C:\Users\Colouree\Desktop\Colouree\google_word2vec.model")
+##import psutil
+### gives a single float value
+##psutil.cpu_percent()
+### gives an object with many fields
+##psutil.virtual_memory()
+### you can convert that object to a dictionary 
+##mem_usage=dict(psutil.virtual_memory()._asdict())
+#df2=pd.DataFrame(columns=macro_tags,index=keys)
+#from tqdm import tqdm
+#for i in tqdm(range(0,len(keys))):
+#    for j in range(0,len(macro_tags)):
+#        try:
+#            df2.iloc[i,j]=model1.similarity(df2.index[i], df2.columns[j])
+#        except:
+#            try:
+#                df2.iloc[i,j]=model1.n_similarity(df2.index[i].lower().split(), df2.columns[j].lower().split())
+#            except:
+#                df2.iloc[i,j]=0.0
 
                 
 mysql.close()
