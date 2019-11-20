@@ -1,3 +1,10 @@
+#class NLP:
+#    def __init__(self):
+        
+
+
+
+
 
 #from fuzzywuzzy import fuzz
 #k=fuzz.token_set_ratio('Deluxe Room, 1 King Bed', 'Hotel')
@@ -211,6 +218,7 @@ keys=list(set(keys))
 ##lll=[x for x in keys if 'wheelchair' in x]
 keys=[concatenate_list_data(k.split(' ')[0:3]) for k in keys]
 keys=[k.replace('centre','center').replace('of','').replace('theatre','theater') for k in keys]
+
 macro_tags=['education',
 'health',
 'residential',
@@ -351,18 +359,18 @@ df1=pd.DataFrame(columns=final_tags,index=macro_tags)
 ##                    df1.iloc[i,j]=((model.similarity(first, second)+model1.n_similarity(first, second))+0.00001)/2
 #            except:
 #                df1.iloc[i,j]=0.0
-df2=pd.DataFrame(columns=final_tags,index=macro_tags)
+df02=pd.DataFrame(columns=final_tags,index=macro_tags)
 from tqdm import tqdm
 for i in tqdm(range(0,len(macro_tags))):
     for j in range(0,len(final_tags)):
         try:
 
-            df2.iloc[i,j]=model1.similarity(df2.index[i], df2.columns[j])
+            df02.iloc[i,j]=model1.similarity(df02.index[i], df02.columns[j])
         except:
             try:
-                df2.iloc[i,j]=model1.n_similarity(df2.index[i].lower().split(), df2.columns[j].lower().split())
+                df02.iloc[i,j]=model1.n_similarity(df02.index[i].lower().split(), df02.columns[j].lower().split())
             except:
-                df2.iloc[i,j]=0.0
+                df02.iloc[i,j]=0.0
                 
                 
 #from tqdm import tqdm
@@ -390,19 +398,19 @@ def get_nearest_tags(tag,df1,nearest_words):
 def unknown_tag(tag_name,macro_tags,*args):
     if tag_name not in final_tags:
         final_tags.append(tag_name) 
-    df2=pd.DataFrame(columns=final_tags,index=macro_tags)
+    df02=pd.DataFrame(columns=final_tags,index=macro_tags)
     from tqdm import tqdm
     for i in tqdm(range(0,len(macro_tags))):
         for j in range(0,len(final_tags)):
             try:
     
-                df2.iloc[i,j]=model1.similarity(df2.index[i], df2.columns[j])
+                df02.iloc[i,j]=model1.similarity(df02.index[i], df02.columns[j])
             except:
                 try:
-                    df2.iloc[i,j]=model1.n_similarity(df2.index[i].lower().split(), df2.columns[j].lower().split())
+                    df02.iloc[i,j]=model1.n_similarity(df02.index[i].lower().split(), df02.columns[j].lower().split())
                 except:
-                    df2.iloc[i,j]=0.0
-    return df2[tag_name]
+                    df02.iloc[i,j]=0.0
+    return df02[tag_name]
 def khudka_tag(tag_name,nearest_words):
     import pandas as pd
     df=pd.read_csv('only_amenity_tags.csv',encoding='latin-1')
@@ -444,10 +452,10 @@ def andarka_tag(tag_name,keys,nearest_words):
     i=0
     for j in range(0,len(keys)):
         try:
-            cr_df.iloc[i,j]=model.similarity(cr_df.index[i], cr_df.columns[j])
+            cr_df.iloc[i,j]=model1.similarity(cr_df.index[i], cr_df.columns[j])
         except:
             try:
-                cr_df.iloc[i,j]=model.n_similarity(cr_df.index[i].lower().split(), cr_df.columns[j].lower().split())
+                cr_df.iloc[i,j]=model1.n_similarity(cr_df.index[i].lower().split(), cr_df.columns[j].lower().split())
             except:
                 cr_df.iloc[i,j]=0.0
     result=get_nearest_tags(tag_name,cr_df,nearest_words)
@@ -455,7 +463,7 @@ def andarka_tag(tag_name,keys,nearest_words):
 
 print("took {} secs to run the analysis".format(time.time()-start))
 df1.to_csv('newest_tags_relations1.csv')
-df2.to_csv('newest_tags_relations2.csv')
+df02.to_csv('newest_tags_relations2.csv')
 #result,cr_df=andarka_tag('living',keys,200)
 #education
 #health
