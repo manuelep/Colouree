@@ -65,3 +65,10 @@ image_tiff = Image.open('s1a-iw1-slc-vh-20190912t055158-20190912t055224-028984-0
 #     ar = band.ReadAsArray()
 #     print('Band %d has type %s'%(bi + 1, ar.dtype))
 #     raw = ar.tostring()
+
+
+
+o = {
+   "coordinates": [[[23.314208, 37.768469], [24.039306, 37.768469], [24.039306, 38.214372], [23.314208, 38.214372], [23.314208, 37.768469]]], 
+   "type": "Polygon"
+}
