@@ -72,3 +72,4 @@ o = {
    "coordinates": [[[23.314208, 37.768469], [24.039306, 37.768469], [24.039306, 38.214372], [23.314208, 38.214372], [23.314208, 37.768469]]], 
    "type": "Polygon"
 }
+https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/bounds_IOW.geojson
