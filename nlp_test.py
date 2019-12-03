@@ -2,7 +2,18 @@
 #    def __init__(self):
         
 
-
+def get_wiki_definition(key, value):
+    """ """
+    logger.warning("Trying a guess for '{key}:{value}'".format(**vars()))
+    _res = requests.get(
+        'https://taginfo.openstreetmap.org/api/4/tag/wiki_pages',
+        params = dict(key=key, value=value)
+    )
+    assert _res.status_code==200
+    res = _res.json()
+    desc = list(filter(lambda d: d['lang']=='en', res['data']))[0]['description']
+    logger.warning(desc)
+    return desc
 
 
 
